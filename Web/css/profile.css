@@ -1,0 +1,22 @@
+#logForm{
+	padding: 20px;
+	top: 50%;
+	left: 250px;
+	display: flow;
+	position: fixed;
+	margin-top: -150px;
+	margin-left: -250px;
+}
+
+.logSign{
+	display: block;
+	background-color: white;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+.logSign button{
+	padding-right: 90%;
+	text-align: center;
+	align-content: center;
+}

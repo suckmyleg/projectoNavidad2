@@ -1,0 +1,128 @@
+#content{
+	display: grid;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    margin-top: 20px;
+    height: 75vh;
+    gap: 5px
+}
+
+#content{
+    grid-template:
+    "camera" 90% 
+    "chat" auto / 60% auto;
+}
+
+#camera{
+    background-color: aqua;
+}
+
+#chat{
+    background-color: green;
+}
+
+#clip{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+#buttons button{
+    display: inline-block;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bolder;
+    box-shadow: 0 9px #999;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#buttons button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition: 0s;
+}
+
+
+
+#clip_button{
+    background: repeating-linear-gradient(-45deg, black, yellow 6px);
+    animation: gradient 15s ease infinite;
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+
+#clip_button:hover {
+    color: white;
+}
+
+
+
+#flash_button{
+    background-color: black;
+    color: white;
+}
+
+#flash_button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+
+.micro_button{
+  border-radius: 4px;
+  background-color: #f4511e;
+  color: #FFFFFF;
+  width: 160px;
+}
+
+.micro_button span {
+  position: relative;
+  transition: 0.5s;
+}
+
+.micro_button span:after {
+  content: '🎤';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.micro_button:hover span {
+  padding-right: 25px;
+}
+
+.micro_button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transition: remove;
+}
+
+
+@media (max-width: 900px){
+    #content{
+         grid-template:
+         "camera" 55%
+         "chat" 35%
+         "clip" auto / auto;
+    }
+}

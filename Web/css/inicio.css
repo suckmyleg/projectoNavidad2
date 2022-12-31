@@ -1,0 +1,74 @@
+.new{
+	display: block;
+	background-color: lightblue;
+	border: 2px solid black;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.new_header h2{
+	margin: 0px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.new_header div{
+	display: inline-block;
+}
+
+.new_header{
+	text-align: left;
+	margin-left: 0px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.new_content{
+	margin-left: 50px;
+}
+
+.new_title{
+	
+}
+.new_date{
+	text-align: right;
+}
+
+.new_status{
+	grid-column-start: 3;
+	margin-left: auto;
+}
+
+.new hr{
+	color: black;
+	width: 100%;
+	margin-top: 13px;
+	margin-bottom: 5px;
+}
+
+
+
+
+@media (max-width: 800px){
+
+	.new_date{
+		grid-row-start: 2;
+		grid-column-start: 1;
+		text-align: left;
+		font-size: 65%;
+	}
+}
+
+
+
+
+@media (max-width: 600px){
+
+	.link{
+		display: block;
+		margin-bottom: 2px;
+		text-align: center;
+	}
+
+}

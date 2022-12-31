@@ -1,0 +1,401 @@
+/*
+    green: easy
+    blue: rare
+    yellow: legendary
+    black: mythic
+*/
+
+
+#logrosProgressStatus{
+	color: white;
+}
+
+#logrosProgressContainer{
+	background-color: white;
+}
+#logrosProgress{
+	width: 99%;
+	background-color: black;
+	padding: 0.5%;
+	text-align: center;
+}
+
+#logrosProgressBar{
+	width: 0%;
+	text-align: center;
+	color: black;
+	background-color: green;
+	color: rgb(0,0,0,0);
+
+	-webkit-animation: rainbow2 5s ease infinite;
+	-z-animation: rainbow2 5s ease infinite;
+	-o-animation: rainbow2 5s ease infinite;
+	animation: rainbow2 5s ease infinite;
+}
+
+
+
+.logros{
+	background-color: #C0C0C0;
+	padding: 10px;
+	margin: 7.5px;
+	font-size: 15px;
+	transition: margin-left 0s, margin-right 0s;
+}
+
+
+.loguito{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid green;
+}
+
+.logros .prevent-select{
+	margin: 0px;
+}
+
+.logros_header{
+	text-align: left;
+	margin-left: 0px;
+	display: grid;
+	grid-template-columns: 110px auto auto;
+}
+
+.logros_title{
+	
+}
+.logros_date{
+	text-align: right;
+	font-size: 15px;
+}
+
+.logros hr{
+	color: black;
+	width: 100%;
+	margin-top: 13px;
+	margin-bottom: 5px;
+	color: black;
+}
+
+span{
+    font-size: 80%;
+    font-style: italic;
+    color: gray;
+    float: right;
+}
+
+
+#logrosContent{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 7.5px;
+}
+
+.logros_content{
+}
+
+
+.logros:hover{
+	cursor: pointer;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1700px){
+
+	.logros_date{
+		grid-row-start: 3;
+		grid-column-start: 1;
+		text-align: left;
+		font-size: 65%;
+	}
+
+	#logrosContent{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (max-width: 1200px){
+
+	.logros_date{
+		grid-row-start: 3;
+		grid-column-start: 1;
+		text-align: left;
+		font-size: 65%;
+	}
+
+	#logrosContent{
+		grid-template-columns: 1fr;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@-webkit-keyframes rainbow2 {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow2 {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow2 {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow2 { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+@keyframes rainbow-bg{
+		100%,0%{
+			background-color: rgb(255,0,0);
+		}
+		8%{
+			background-color: rgb(255,127,0);
+		}
+		16%{
+			background-color: rgb(255,255,0);
+		}
+		25%{
+			background-color: rgb(127,255,0);
+		}
+		33%{
+			background-color: rgb(0,255,0);
+		}
+		41%{
+			background-color: rgb(0,255,127);
+		}
+		50%{
+			background-color: rgb(0,255,255);
+		}
+		58%{
+			background-color: rgb(0,127,255);
+		}
+		66%{
+			background-color: rgb(0,0,255);
+		}
+		75%{
+			background-color: rgb(127,0,255);
+		}
+		83%{
+			background-color: rgb(255,0,255);
+		}
+		91%{
+			background-color: rgb(255,0,127);
+		}
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.todas{
+	border:  black;
+	background-color: white;}
+
+.facil{
+	border-color: black;
+	background-color: #C0C0C0;
+}
+
+.medio{
+	background-color: green;
+	border-color: green;
+}
+
+.dificil{
+	background-color: orange;
+	border-color: orange;
+}
+
+.demoniaca{
+	background-color: red;
+	border-color: red;
+}
+
+.legendaria2{
+	animation: rainbow-bg-gradient 0.8s linear;
+	animation-iteration-count: infinite;
+}
+
+
+.legendaria{
+	background-color: black;
+	padding: 15px;
+	border: none; 
+	background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow2 10s ease infinite;
+	-z-animation: rainbow2 10s ease infinite;
+	-o-animation: rainbow2 10s ease infinite;
+	animation: rainbow2 10s ease infinite;
+}
+
+.imposible{
+	background-color: black;
+	padding: 15px;
+	border: none;
+	color: white;
+	background: linear-gradient(hsl(264, 100%, 50%), hsl(270, 100%, 40%), black, hsl(240, 100%, 20%), hsl(300, 100%, 20%));
+	background-size: 1800% 1800%;
+
+	-webkit-animation: rainbow2 5s ease infinite;
+	-z-animation: rainbow2 5s ease infinite;
+	-o-animation: rainbow2 5s ease infinite;
+	animation: rainbow2 5s ease infinite;
+}
+
+
+.logroFloat{
+	display: flow;
+	position: fixed;
+	top: -400px;
+	right: 0px;
+	transition: top 1s;
+	width: auto;
+	border: 2px solid black;
+	box-shadow: 5px 10px #888888;
+	width: 300px;	
+	border-radius: 20px;
+}
+
+.logroFloat .logros_header{
+	grid-template-columns: auto auto auto;
+}
+
+.logroFloat .logros_date{
+	display: none;
+}
+
+.logroFloat hr{
+	display: none;
+	grid-column-start: 1;
+}
+
+.logroFloat .logros_content{
+	display: none;
+}
+
+.logroFloat .logros_title{
+	padding-top: 50px;
+}
+
+
+.logroFloat img{
+	border-radius: 20px;
+	height: 50px;
+	width: 50px;
+}
+
+.legendaria img{
+	border: none;
+	background: none;
+}
+
+.type{
+	padding: 6px;
+	display: inline-block;
+}
+
+.type:hover{
+	cursor: pointer;
+}
+
+#logrosDificultades{
+	text-align: center;
+	align-content: center;
+}

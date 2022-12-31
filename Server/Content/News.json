@@ -1,0 +1,34 @@
+[
+	{
+		"name":"Pagina web navidad",
+		"description":"Bienvenidos a la web del futuro :sunglasses:.\nEn esta web vais a encontrar eventos para navidad, algunas programadas y otras que no, los eventos irán apareciendo y mostrarán la fecha en la que se hosteara.\nNo sé que más poner aqui, lelellelelelellelelellelelell XD XD XD XD LOL LAL LELELELLELELELL :v:v:v:v:v:v:v:v:v:v:v:v:v",
+		"start":"25-12-2022",
+		"end":"06-01-2023",
+		"link":false,
+		"status":"active"
+	},
+	{
+		"name":"Clips",
+		"description":"Ojito ojito, porque aqui vas a poder subir clips de mierdas",
+		"start":"26-12-2022",
+		"end":"06-01-2023",
+		"link":"Clips/index.html",
+		"status":"soon"
+	},
+	{
+		"name":"Camera2.0",
+		"description":"",
+		"start":"27-12-2022",
+		"end":"06-01-2023",
+		"link":"Camara/index.html",
+		"status":"soon"
+	},
+	{
+		"name":"Suckcrack",
+		"description":"",
+		"start":"28-12-2022",
+		"end":false,
+		"link":"PFTR/index.html",
+		"status":"soon"
+	}
+]

@@ -1,0 +1,412 @@
+body{
+	margin: 0px;
+	font-family: cursive;
+	padding-bottom: 20px;
+	font-size: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-bottom: 300px;
+}
+
+#pageBanner{
+	background-color: gray;
+	transition: height 0.8s;
+    background-size:     contain;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+
+#bannerBackgroundVideo{
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+  width: 100%;
+  height: 76px;
+  transition: height 0.8s;
+
+}
+
+#pageBanner h1{
+	padding: 10px;
+	margin: 0px;
+	margin-top: auto;
+	text-align: center;
+	transition: color 0.3s, background-color 0.3s, font-size 0.6;
+	color: black;
+}
+
+
+#pageBanner h1:active{
+  background: -webkit-linear-gradient(red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#buttonDisplayer{
+	display: none;
+}
+
+#buttonDisplayer:hover{
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+
+header nav{
+	background-color: black;
+	padding: 5px;
+}
+
+header nav ul {
+	text-align: center;
+	list-style: none;
+	margin:0px;
+}
+
+header nav ul a{
+	display: inline-block;
+	width: 32%;
+	padding: 2px 0px 2px 0px;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+}
+
+header nav ul a:hover{
+	background-color: white;
+	color: black;
+}
+
+footer{
+	display: flow;
+	position: fixed;
+	bottom: 0px;
+	background-color: white;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#musicPlayerTitle{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+  background-color: #ff0000;
+  color: #a0276e;
+}
+
+#audioControll{
+	display: inline-block;
+	padding: 0px;
+	width: 100%;
+	color: red;
+}
+
+#musicPlayerTitle{
+	margin-top: -10px;
+	text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:100%; /* some width */
+}
+
+#musicPlayerTitle:hover{
+	cursor: pointer;
+}
+
+#musicPlayer ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+#musicPlayer ul a{
+	background-color: black;
+	color: white;
+	padding: 2px;
+	display: block;
+	margin-top: 10px;
+
+	text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width:100%; /* some width */
+}
+
+#musicPlayer ul a:hover{
+	cursor: pointer;
+}
+
+#musicPlayer{
+	border-radius: 3px;
+	background-color: red;
+	padding: 10px;
+	display: flow;
+	position: fixed;
+	bottom: -20px;
+	transition: bottom 0.2s, width 0.5s;
+	right: 0px;
+	width: 500px;
+	z-index: 10000;
+}
+
+#musicPlayer:hover{
+	bottom: 0px;
+}
+
+#musicSettings{
+	display: none;
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+
+#musicSettings a{
+	margin-right: 2%;
+}
+
+#musicSettings a:hover{
+	cursor: pointer;
+	border-bottom: 2px solid white;
+}
+
+.easterEgg:hover{
+	cursor: cell;
+}
+
+
+
+
+
+
+
+
+
+#content{
+	padding: 15px;
+}
+
+.disabled{
+  	-webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
+  	filter: grayscale(100%);
+}
+
+.link.disabled:hover{
+	cursor: not-allowed;
+}
+
+.disabled:hover{
+	cursor: not-allowed;
+}
+
+.disabled.new_all_content{
+	filter: grayscale(100%);
+}
+
+
+
+#moreSettings{
+	text-align: center;
+}
+
+
+
+
+
+
+#moreModes{
+	text-align: center;
+}
+
+
+#musicModes{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	display: none;
+	/*
+	background-color: white;
+	padding: 20px;
+	top: 50%;
+	left: 250px;
+	display: flow;
+	position: fixed;
+	margin-top: -150px;
+	margin-left: -250px;*/
+	border-bottom: 2px solid black;
+}
+
+
+#musicModes a{
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+.link:hover{
+	color:black;
+	transition: color 0.5s, background-color 0.1s;
+}
+
+.link{
+	size: 10px;
+	padding: 4px;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: black;
+
+
+	-webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
+}
+
+.link{
+	size: 10px;
+	padding: 4px;
+	border-radius: 20px;
+	border: 1px solid white;
+	background-color: black;
+
+
+	-webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
+}
+
+.active{
+	color: green;
+	border-color: green;
+}
+.web{
+	color: green;
+	border-color: green;
+}
+.active.link:hover{
+	background-color: green;
+}
+
+.link.web:hover{
+	cursor: pointer;
+}
+
+
+
+
+
+.inactive{
+	color: red;
+	border-color: red;
+}
+.inactive.link:hover{
+	background-color: red;
+}
+
+
+.soon{
+	color: orange;
+	border-color: orange;
+}
+.soon.link:hover{
+	background-color: orange;
+}
+
+
+
+
+
+
+
+@media (max-width: 750px){
+
+	header nav ul a{
+		margin-left: auto;
+		padding: 10px;
+	}
+
+	header nav ul {
+		display: none;
+		margin: 0px;
+		padding-left: 0px;
+	}
+
+	header nav ul a{
+		display: block;
+		width: auto;
+	}
+
+	header nav{
+		text-align: center;
+		width: auto;
+		margin-left: auto;
+		right: 0px;
+		top: 0px;
+	}
+
+	header{
+		width: 100%;
+	}
+
+	header nav #buttonDisplayer{
+		display: block;
+		width: auto;
+		color:white;
+	}
+
+}
+
+
+@media(max-width: 600px){
+	#musicPlayer{
+		width: 25%;
+	}
+	#musicPlayer:hover{
+		width: 95%;
+	}
+}
+
+
+
+
+
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
+
+
+
+.hidden{
+	display: none;
+}

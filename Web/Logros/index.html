@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Logros</title>
+	<script src="../js/videoRemote.js"></script>
+	<script src="../js/cookies.js"></script>
+	<script src="../js/settings.js"></script>
+	<script src="../js/music.js"></script>
+	<script src="../js/connection.js"></script>
+	<script src="../js/profiles.js"></script>
+	<script src="../js/session.js"></script>
+	<script src="../js/setup.js"></script>
+	<script src="../js/base.js"></script>
+	<script src="../js/banner.js"></script>
+	<script type="text/javascript" src="../js/jquery-latest.min.js"></script>
+	<script src='../js/snowfall.jquery.js'></script>
+	<script src='../js/logros.js'></script>
+	<script src='../js/easterEggs.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/logros.css">
+</head>
+<body onclick="executeClick('002', 1);">
+	
+	<header class="prevent-select">
+		<div id="pageBanner">
+			<video id="bannerBackgroundVideo" autoplay muted loop></video>
+			<h1 id="page_title" onclick="switchModoFiest();" onmouseover="onMouseOverBanner();" onmouseout="onMouseOutBanner();">SuckMyLeg</h1>
+		</div>
+
+		<nav id="navegacion">
+			<a id="buttonDisplayer" onclick="displayNav();">+++</a>
+			<ul id="navegacion_list">
+				<a href="../Inicio/">Inicio</a>
+				<a href="../Camara/">Camara</a>
+				<a href="../Clips/">Clips</a>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="logrosProgress" class="prevent-select">
+		<div id="logrosProgressStatus">0%</div>
+		<div id="logrosProgressContainer">
+			<div id="logrosProgressBar">.</div>
+		</div>
+	</div>
+
+	<div id="logrosDificultades" class="prevent-select">
+		<div onclick="showLogros('*');" class="todas type">Todas</div>
+		<div onclick="showLogros('facil');" class="facil type">Facil</div>
+		<div onclick="showLogros('medio');" class="medio type">Medio</div>
+		<div onclick="showLogros('dificil');" class="dificil type">Dificil</div>
+		<div onclick="showLogros('demoniaca');" class="demoniaca type">Demoniaco</div>
+		<div onclick="showLogros('legendaria');" class="legendaria type">Legendaria</div>
+		<div onclick="showLogros('imposible');" class="imposible type">Imposible</div>
+
+	</div>
+
+	<div id="logrosContent">
+
+
+	</div>
+
+	<div id="spawnableField"></div>
+	
+	<footer id="footerAutores" onclick="executeClick('001', 1);">
+		
+		Created by: <a class="easterEgg" onclick="modoJuan();">SuckMyLeg</a> & <a class="easterEgg" onclick="modoRoob();">Roobcrack</a>
+
+	</footer>
+</body>
+</html>

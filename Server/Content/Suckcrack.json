@@ -1,0 +1,177 @@
+{
+     "servers": {
+          "o7": {
+               "name": "o7",
+               "key": "9roy50npkb",
+               "matches": [
+                    "z1"
+               ],
+               "created": 1671635133.583085
+          },
+          "44": {
+               "name": "44",
+               "key": "x9qx19d9m5",
+               "matches": [
+                    "l4"
+               ],
+               "created": 1671635275.3870802
+          },
+          "aw": {
+               "name": "aw",
+               "key": "r9svaqpi4r",
+               "matches": [
+                    "5w"
+               ],
+               "created": 1671635314.9103873
+          },
+          "ac": {
+               "name": "ac",
+               "key": "wzzxclv1fg",
+               "matches": [
+                    "8h"
+               ],
+               "created": 1671640543.603308
+          },
+          "a8": {
+               "name": "a8",
+               "key": "zm7txk80df",
+               "matches": [
+                    "z5"
+               ],
+               "created": 1671640644.558614
+          },
+          "20": {
+               "name": "20",
+               "key": "j8uaxfmvwr",
+               "matches": [
+                    "8y"
+               ],
+               "created": 1671640651.8336833
+          },
+          "ja": {
+               "name": "ja",
+               "key": "bgptf33l5n",
+               "matches": [
+                    "a8"
+               ],
+               "created": 1671640918.4865172
+          },
+          "ra": {
+               "name": "ra",
+               "key": "kcj4hn4a7p",
+               "matches": [
+                    "ff"
+               ],
+               "created": 1671641043.4211073
+          },
+          "jw": {
+               "name": "jw",
+               "key": "sf4rvxr429",
+               "matches": [
+                    "0e"
+               ],
+               "created": 1671641082.3434381
+          }
+     },
+     "matches": {
+          "z1": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "l4": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "5w": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "8h": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "z5": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "8y": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "a8": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "ff": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          },
+          "0e": {
+               "data": {},
+               "analysis_data": {
+                    "start": false,
+                    "players": {
+                         "total": 0,
+                         "actual": 0
+                    }
+               },
+               "delay": 400
+          }
+     }
+}

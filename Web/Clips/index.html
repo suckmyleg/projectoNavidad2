@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Clips</title>
+	<script src="../js/videoRemote.js"></script>
+	<script src="../js/cookies.js"></script>
+	<script src="../js/settings.js"></script>
+	<script src="../js/music.js"></script>
+	<script src="../js/connection.js"></script>
+	<script src="../js/profiles.js"></script>
+	<script src="../js/session.js"></script>
+	<script src="../js/setup.js"></script>
+	<script src="../js/base.js"></script>
+	<script src="../js/banner.js"></script>
+	<script src="../js/clips.js"></script>
+	<script type="text/javascript" src="../js/jquery-latest.min.js"></script>
+	<script src='../js/snowfall.jquery.js'></script>
+	<script src='../js/logros.js'></script>
+	<script src='../js/easterEggs.js'></script>
+	<link rel="stylesheet" type="text/css" href="../css/base.css">
+	<link rel="stylesheet" type="text/css" href="../css/clips.css">
+	<link rel="stylesheet" type="text/css" href="../css/logros.css">
+</head>
+<body>
+
+
+	<header class="prevent-select">
+		<div id="pageBanner">
+			<video id="bannerBackgroundVideo" autoplay muted loop></video>
+			<h1 id="page_title" onclick="switchModoFiest();" onmouseover="onMouseOverBanner();" onmouseout="onMouseOutBanner();">SuckMyLeg</h1>
+		</div>
+
+		<nav id="navegacion">
+			<a id="buttonDisplayer" onclick="displayNav();">+++</a>
+			<ul id="navegacion_list">
+				<a href="../Inicio/">Inicio</a>
+				<a href="../Camara/">Camara</a>
+				<a href="../Logros/">Logros</a>
+			</ul>
+		</nav>
+	</header>
+	
+	<div id="peopleFilter" class="prevent-select">
+		
+	</div>
+
+	<div id="clipsContent"></div>
+
+	<div id="videoBoxOutside" class="hide" onclick="hideVideo();">	
+		
+	</div>
+	<div id="videoBox" class="hide">
+		<video id="videoToShow" controls>
+		</video>
+		<div id="peopleFilter" class="prevent-select">
+		
+		</div>
+		<a class="closerVideo" onclick="hideVideo();">X</a>
+	</div>
+
+	<div id="spawnableField"></div>
+	
+	<footer id="footerAutores">
+		
+		Created by: <a class="easterEgg" onclick="modoJuan();">SuckMyLeg</a> & <a class="easterEgg" onclick="modoRoob();">Roobcrack</a>
+
+	</footer>
+</body>
+</html>
