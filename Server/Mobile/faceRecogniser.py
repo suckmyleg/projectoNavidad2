@@ -6,7 +6,6 @@ class Recogniser:
 		self.data = Data("faces.b", "pickle")
 		self.memory = Memory()
 
-
 		self.cascPath = "Mobile/Cascades/haarcascade_frontalface_default.xml"
 		self.faceCascade = cv2.CascadeClassifier(self.cascPath)
 
@@ -41,13 +40,12 @@ class Recogniser:
 		return content
 
 	def search(self, content):
-		
 		#resized = self.prepareImage(content)
 
-		output, status = self.memory.search(content)
+		#output, status = self.memory.search(content)
 		
-		if status:
-			return output
+		#if status:
+		#	return output
 		
 		output = self.recogniseFaces(content)
 
