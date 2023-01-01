@@ -40,7 +40,7 @@ class Recogniser:
 		return content
 
 	def search(self, content):
-		#resized = self.prepareImage(content)
+		content = self.prepareImage(content)
 
 		#output, status = self.memory.search(content)
 		
