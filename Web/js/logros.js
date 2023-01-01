@@ -2,142 +2,169 @@ let LOGROS = {
 	"DIANIEVE":["!DIA DE NIEVE!", 
 		"¡CORRIDA ANCESTRAL!",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"ROOBCRACK":["Ruben Martinez Martinez", 
 		"Eres un seguidor afaz del verdadero alphasnipper",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"SUCKMYLEG":["Juan Ageitos Bonaldi", 
 		"Seguidor del volumen",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK00":["Clickeador novato fetichista de pies", 
 		"Clickea 5 veces por segundo el 'Creado por ...'",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK01":["Clickeador medio fetichista de pies", 
 		"Clickea 7 veces por segundo el 'Created by: '",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK06":["Clickeador master fetichista de pies", 
 		"Clickea 11 veces por segundo el 'Created by: '",
 		"dificil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK07":["Clickeador master fetichista de pies", 
 		"Clickea 15 veces por segundo el 'Created by: '",
 		"demoniaca",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"😎":["Clickea => 😎", 
 		"Has desbloqueado la playlist '😎'",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"🍉":["Clickea => 🍉", 
 		"Has desbloqueado la playlist '🍉'",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"🚗":["Clickea => 🚗", 
 		"Has desbloqueado la playlist '🚗'",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"otakus":["Otaku roberto, duchate", 
 		"Le has dado click a la palabra 'otakus'",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK10":["El principio...", 
 		"EL PRIMER CLICK EN LA WEB 🥳🥳🥳🥳🥳🥳🥳🥳",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK11":["El segundo click 💀💀", 
 		"No hace falta clickear tanto...",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"VENDE":["Vendekebaps", 
 		"+15 cuentas del lol bloqueadas",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"2022/12/28":["Tercer dia", 
 		"Has visitado la web el tercer dia",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"2022/12/29":["Dia cuarto", 
 		"Me follo a tu hermana por el aparato",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
 	"2022/12/30":["Quinto dia", 
 		"Por el culo te la inco",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
 	"2022/12/31":["Sexto dia", 
 		"El último dia del año, os quiero mucho",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
-	"2023/01/01":["Septimo dia", 
+	"2023/1/1":["Septimo dia", 
 		"Lo has logrado, has llegado al 2023",
 		"dificil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
-	"2023/01/02":["Octavo dia", 
+	"2023/1/2":["Octavo dia", 
 		"Como me entra un kebap la verdad",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
-	"2023/01/02":["Octavo dia", 
+	"2023/1/2":["Octavo dia", 
 		"Como me entra un kebap la verdad",
 		"dificil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CLICK08":["Clickeador clicker fetichista de pies", 
 		"Clickea 30 veces por segundo el 'Created by: '",
 		"legendaria",
-		"snow_day.gif"],
+		"snow_day.gif",
+		true],
 
 	"GAY":["Eri gay?", 
 		"Ahora en serio, eres gay? A ver, no me pasa nada con los gays, tengo amigos gays pero... ? sus",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"ROMPEBOLAS":["Subnormal", 
 		"Como sigas cliqueando te reviento los huevos",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"ROMPEBOLAS2":["Otro tonto", 
 		"A ti no te quieren en casa no?",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"ROM1":["Otaku muerto abono pa mi huerto", 
 		"Nah, quien no quiere a roberto?",
 		"medio",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Csuckcrack":["Combinacion: Creadores", 
 		"Los putos amos ostiah",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
 
@@ -145,27 +172,32 @@ let LOGROS = {
 	"CchinoSuk":["Combinacion: Tocaculos 1", 
 		"Adrian le toca el culo a juan",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CchinoCris":["Combinacion: Tocaculos 2", 
 		"Adrian le toca el culo a cristian",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CchinoRiv":["Combinacion: Tocaculos 3", 
 		"Adrian le toca el culo a mateo",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CchinoRom":["Combinacion: Tocaculos 4", 
 		"Adrian le toca el culo a roberto",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CchinoJon":["Combinacion: Tocaculos 5", 
 		"Adrian le toca el culo a jonatan",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 
 
@@ -173,52 +205,62 @@ let LOGROS = {
 	"CcrisJoeri":["Combinacion: Parejita", 
 		"Joeri y cristian son novios",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CdavidJoeri":["Combinacion: Inglesa", 
 		"QUE DICEN? CASTELLANO CASTELLANO CASTELLANO",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CsuckJoeri":["Combinacion: Filosofos", 
 		"Filosofeando a las 2am",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Cow":["Combinacion: OW2", 
 		"Mejor cuarteto de overwatch",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Cph":["Combinacion: Phasmophobia", 
 		"illo, FM5, pueeedees oirme???",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Cjitano":["Combinacion: Jitanos", 
 		"La version barata de los rumanos",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Carmas":["Combinacion: Armas", 
 		"Enfermos de las armas",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"Crub":["Combinacion: Rubick", 
 		"Os gusta ordenar colores en cuadrados",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CtrollGta":["Combinacion: Trolls gta5", 
 		"Mejores troleadores del gta roleplay",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"CEsquizo":["Combinacion: Los esquizofrenicos", 
 		"Esquizofrenicos de mierda",
 		"facil",
-		"snow_day.gif"]
+		"snow_day.gif",
+		false]
 
 
 
@@ -232,31 +274,57 @@ let LOGROS = {
 	"JHONA":["kota (jona)", 
 		"Incremento de tetas",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"MATEO":["rive",
 		"2 metros de altura + 90 armas",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"GAMBA":["ᛟ Jσяgε ᛟ", 
 		"jorge, no quiero hablar de el",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"ADRIAN":["我可以成為你的中國人", 
 		"Tocar los culos de tus amigos es tu afición",
 		"facil",
-		"snow_day.gif"],
+		"snow_day.gif",
+		false],
 
 	"TENERNOVIA":["El elegido", 
 		"Socializar, tocar hierba, tener novia.",
 		"legendaria",
-		"snow_day.gif"]
+		"snow_day.gif",
+		false]
 */
 let LOGROSSHOWING = 0;
 
 let lastType = "*";
+
+function logroIncompleteHtml(name, diff, gif, id="logro", clas=""){
+		clas += " disabled";
+
+		return '<div title="Dificultad: '+diff+'" onclick="executeLogroFun();" id="'+id+'" class="'+diff+' prevent-select logros '+clas+'">'+
+		'<div class="logros_header">'+
+		'<div>'+
+		'<img class="loguito '+diff+'" src="../Gifs/'+gif+'">'+
+		'</div>'+
+		'<div>'+
+		'<h2 class="prevent-select">'+name+
+		'</h2>'+
+		'</div>'+
+		'<div class="logros_date" >'+
+		'<strong>'+
+		'Nunca'+
+		'</strong>'+
+		'</div>'+
+		'</div>'+
+		'</div>';
+}
 
 function logroHtml(name, comment, diff, gif, time, id="logro", clas=""){
 		var idd = id + time;
@@ -289,6 +357,10 @@ function logroHtml(name, comment, diff, gif, time, id="logro", clas=""){
 
 //https://stackoverflow.com/questions/3177836/how-to-format-time-since-xxx-e-g-4-minutes-ago-similar-to-stack-exchange-site?page=1&tab=scoredesc#tab-top
 function time_ago(time) {
+
+	if(time===false){
+		return "Nunca";
+	}
 
   switch (typeof time) {
     case 'number':
@@ -399,6 +471,11 @@ function showLogros(type=false) {
 		var logrosDone = getLogrosDone();
 		var numberOfLogros = 0;
 		content.innerHTML = "";
+
+
+		var logrosNamesDone = [];
+
+		// Show logros complete
 		for(var logro of logrosDone){
 			try{
 				var data = LOGROS[logro[0]];
@@ -408,8 +485,25 @@ function showLogros(type=false) {
 					content.innerHTML += logroHtml(data[0], data[1], data[2], data[3], logro[1]);
 					numberOfLogros++;
 				}
+				logrosNamesDone.push(logro[0])
 			}catch{}
 		}
+
+		// Show logros incomplete but that arent invisible
+		for(var logroName of Object.keys(LOGROS)){
+			if(!logrosNamesDone.includes(logroName)){
+				var data = LOGROS[logroName];
+				if((type == "*" || data[2] == type) && true)
+				{
+					content.innerHTML += logroIncompleteHtml(data[0], data[2], data[3]);
+				}
+			}	
+		}
+
+
+
+
+
 
 		var totalLogrosType = 0;
 

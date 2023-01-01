@@ -204,24 +204,7 @@ audio::-webkit-media-controls-panel {
 	padding: 15px;
 }
 
-.disabled{
-  	-webkit-user-select: none; /* Safari */
-  	-ms-user-select: none; /* IE 10 and IE 11 */
-  	user-select: none; /* Standard syntax */
-  	filter: grayscale(100%);
-}
 
-.link.disabled:hover{
-	cursor: not-allowed;
-}
-
-.disabled:hover{
-	cursor: not-allowed;
-}
-
-.disabled.new_all_content{
-	filter: grayscale(100%);
-}
 
 
 
@@ -409,4 +392,25 @@ audio::-webkit-media-controls-panel {
 
 .hidden{
 	display: none;
+}
+
+
+.disabled{
+  	-webkit-user-select: none; /* Safari */
+  	-ms-user-select: none; /* IE 10 and IE 11 */
+  	user-select: none; /* Standard syntax */
+  	filter: grayscale(100%);
+}
+
+
+.link.disabled:hover{
+	cursor: not-allowed;
+}
+
+.disabled:hover{
+	cursor: not-allowed;
+}
+
+.disabled.new_all_content{
+	filter: grayscale(100%);
 }
