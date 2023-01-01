@@ -10,10 +10,10 @@ class Recogniser:
 		self.faceCascade = cv2.CascadeClassifier(self.cascPath)
 
 	def facesFromImage(self, imageGray):
-		output, status = self.memory.search(imageGray)
+		#output, status = self.memory.search(imageGray)
 		
-		if status:
-			return output
+		#if status:
+		#	return output
 
 		return self.faceCascade.detectMultiScale(
 			imageGray,
