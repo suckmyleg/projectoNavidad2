@@ -1,7 +1,7 @@
 let modeServer = true;
 
 if(window.location.href.split(":")[0] == "http://192.168.1.104/"){
-    modeServer = false;
+    modeServer = true;
 }
 
 function getVideoSource(loc){
