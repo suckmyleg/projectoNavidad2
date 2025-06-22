@@ -143,6 +143,9 @@ function removeVideoPlaying(){
 	var video = document.getElementById('videoToShow');
 
 	try{
+		video.currentTime = 0;
+		video.innerHTML = "";
+		video.removeAttribute('src'); // empty source
 		video.pause();
 		video.removeAttribute('src'); // empty source
 		video.load();
