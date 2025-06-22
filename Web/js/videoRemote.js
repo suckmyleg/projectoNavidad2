@@ -25,6 +25,7 @@ function getVideoSourceType(){
 }
 
 function getVideoSourceTypeLocation(loc){
+    return '../Videos/' + loc;
     if(modeServer){
         return 'https://maherahe.com/projectoNavidad/Web/Videos/'+loc;
     }else{
