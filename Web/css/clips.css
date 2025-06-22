@@ -108,7 +108,6 @@ body{
 }
 
 #videoBoxOutside{
-    display: flow;
     position: fixed;
     top: 0px;
     height: 100%;
